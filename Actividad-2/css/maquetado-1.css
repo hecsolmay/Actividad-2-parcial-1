@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+body{
+    background-color: beige;
+}
+nav{
+    background-color: green;
+    width: 1000px;
+    height: 100px;
+    border: 5px solid black;
+
+}
+
+header{
+    background-color: rgb(68, 149, 255);
+    width: 1000px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+main{
+    background-color: burlywood;
+    width: 1000px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+
+footer{
+    background-color: rgb(228, 175, 1);
+    width: 1000px;
+    height: 50px;
+    border: 5px solid black;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    float: left;
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+
+.banner{
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    width: 800px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aside{
+    background-color: white;
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.principal-aside{
+    width: 200px;
+    height: 450px;
+    background-color: white;    
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.principal-article{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container-boton {
+    margin: 6%;
+    margin-bottom: 5px;
+    /* margin: auto; */
+}
+
+.boton {
+    color: black;
+    background-color: burlywood;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+}
